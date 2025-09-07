@@ -1,0 +1,55 @@
+\\ To convert the files to mat and make peak corrections 
+
+1- run matlab script (note: if needed to resample to 100 Hz then uncoment line "%resampled = resample(standardized_eeg, resamplig_rate, sampling_frequency);"): 
+
+D:\Github\EnsembleCNN\KCData-C3C4\examined_final_files\KCL new files\CSV\filter_signal_final_files.m
+
+\\ To run the machine learning models
+
+2- run python script: 
+
+D:\Github\EnsembleCNN\KG_test_data.py
+
+3- run python script: 
+
+D:\Github\EnsembleCNN\accumulated_annotations.py
+
+4- run python script: 
+
+D:\Github\EnsembleCNN\merge_subtypes_forecasts.py
+
+5- run python script: 
+
+D:\Github\EnsembleCNN\accumulated_annotations_merge.py
+
+\\ To get results corrected by sleep stage
+
+6- run python script: 
+
+D:\Github\EnsembleCNN\accumulated_annotations_corrected.py
+
+7- run python script: 
+
+D:\Github\EnsembleCNN\merge_subtypes_forecasts_corrected.py
+
+8- run python script: 
+
+D:\Github\EnsembleCNN\accumulated_annotations_merge_corrected.py
+
+9- run python script: 
+
+D:\Github\EnsembleCNN\API_plots_corrected.py
+
+10- run python script: 
+
+D:\Github\EnsembleCNN\make_accumulated_per_sleep_stage.py
+
+11- run python script: 
+
+D:\Github\EnsembleCNN\API_plots_corrected_per_sleep_stage.py
+
+\\ To organize the files into folders
+
+12- run python script: 
+
+D:\Github\EnsembleCNN\move_files.py
